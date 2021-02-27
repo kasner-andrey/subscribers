@@ -1,0 +1,304 @@
+[INFO ] 2021-02-27 09:02:20.480 [main] CSVProvider:16-Call method CSVProvider.get: row - 234, keyFile from subscriber.properties - female.firstName
+[INFO ] 2021-02-27 09:02:21.053 [main] CSVProvider:16-Call method CSVProvider.get: row - 22, keyFile from subscriber.properties - female.lastName
+[DEBUG] 2021-02-27 09:02:25.749 [main] BasicClientConnectionManager:161-Get connection for route {}->http://localhost:8081
+[DEBUG] 2021-02-27 09:02:25.858 [main] DefaultClientConnectionOperator:177-Connecting to localhost:8081
+[DEBUG] 2021-02-27 09:02:25.979 [main] RequestAddCookies:123-CookieSpec selected: ignoreCookies
+[DEBUG] 2021-02-27 09:02:25.982 [main] RequestAuthCache:77-Auth cache not set in the context
+[DEBUG] 2021-02-27 09:02:25.982 [main] RequestTargetAuthentication:80-Target auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:25.983 [main] RequestProxyAuthentication:89-Proxy auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:25.984 [main] DefaultHttpClient:682-Attempt 1 to execute request
+[DEBUG] 2021-02-27 09:02:25.984 [main] DefaultClientConnection:274-Sending request: GET /rest/json/subscribers/0 HTTP/1.1
+[DEBUG] 2021-02-27 09:02:25.985 [main] wire:73- >> "GET /rest/json/subscribers/0 HTTP/1.1[\r][\n]"
+[DEBUG] 2021-02-27 09:02:25.986 [main] wire:73- >> "Accept: */*[\r][\n]"
+[DEBUG] 2021-02-27 09:02:25.986 [main] wire:73- >> "Host: localhost:8081[\r][\n]"
+[DEBUG] 2021-02-27 09:02:25.987 [main] wire:73- >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2021-02-27 09:02:25.987 [main] wire:73- >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+[DEBUG] 2021-02-27 09:02:25.987 [main] wire:73- >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2021-02-27 09:02:25.987 [main] wire:73- >> "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:25.987 [main] headers:278->> GET /rest/json/subscribers/0 HTTP/1.1
+[DEBUG] 2021-02-27 09:02:25.988 [main] headers:281->> Accept: */*
+[DEBUG] 2021-02-27 09:02:25.988 [main] headers:281->> Host: localhost:8081
+[DEBUG] 2021-02-27 09:02:25.988 [main] headers:281->> Connection: Keep-Alive
+[DEBUG] 2021-02-27 09:02:25.988 [main] headers:281->> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+[DEBUG] 2021-02-27 09:02:25.988 [main] headers:281->> Accept-Encoding: gzip,deflate
+[DEBUG] 2021-02-27 09:02:26.465 [main] wire:73- << "HTTP/1.1 404 [\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.468 [main] wire:73- << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.468 [main] wire:73- << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.469 [main] wire:73- << "Date: Sat, 27 Feb 2021 07:02:26 GMT[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.469 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.470 [main] DefaultClientConnection:259-Receiving response: HTTP/1.1 404 
+[DEBUG] 2021-02-27 09:02:26.470 [main] headers:262-<< HTTP/1.1 404 
+[DEBUG] 2021-02-27 09:02:26.471 [main] headers:265-<< Content-Type: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:26.471 [main] headers:265-<< Transfer-Encoding: chunked
+[DEBUG] 2021-02-27 09:02:26.471 [main] headers:265-<< Date: Sat, 27 Feb 2021 07:02:26 GMT
+[DEBUG] 2021-02-27 09:02:26.479 [main] DefaultHttpClient:509-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:26.515 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545-Parsing response as: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:26.516 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548-Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2021-02-27 09:02:26.577 [main] BasicClientConnectionManager:161-Get connection for route {}->http://localhost:8081
+[DEBUG] 2021-02-27 09:02:26.578 [main] DefaultClientConnectionOperator:177-Connecting to localhost:8081
+[DEBUG] 2021-02-27 09:02:26.579 [main] RequestAddCookies:123-CookieSpec selected: ignoreCookies
+[DEBUG] 2021-02-27 09:02:26.580 [main] RequestAuthCache:77-Auth cache not set in the context
+[DEBUG] 2021-02-27 09:02:26.580 [main] RequestTargetAuthentication:80-Target auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:26.580 [main] RequestProxyAuthentication:89-Proxy auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:26.580 [main] DefaultHttpClient:682-Attempt 1 to execute request
+[DEBUG] 2021-02-27 09:02:26.581 [main] DefaultClientConnection:274-Sending request: GET /rest/json/subscribers HTTP/1.1
+[DEBUG] 2021-02-27 09:02:26.581 [main] wire:73- >> "GET /rest/json/subscribers HTTP/1.1[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.581 [main] wire:73- >> "Accept: */*[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.582 [main] wire:73- >> "Host: localhost:8081[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.582 [main] wire:73- >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.582 [main] wire:73- >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.582 [main] wire:73- >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.583 [main] wire:73- >> "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.583 [main] headers:278->> GET /rest/json/subscribers HTTP/1.1
+[DEBUG] 2021-02-27 09:02:26.584 [main] headers:281->> Accept: */*
+[DEBUG] 2021-02-27 09:02:26.584 [main] headers:281->> Host: localhost:8081
+[DEBUG] 2021-02-27 09:02:26.584 [main] headers:281->> Connection: Keep-Alive
+[DEBUG] 2021-02-27 09:02:26.584 [main] headers:281->> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+[DEBUG] 2021-02-27 09:02:26.584 [main] headers:281->> Accept-Encoding: gzip,deflate
+[DEBUG] 2021-02-27 09:02:26.684 [main] wire:73- << "HTTP/1.1 200 [\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.685 [main] wire:73- << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.685 [main] wire:73- << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.686 [main] wire:73- << "Date: Sat, 27 Feb 2021 07:02:26 GMT[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.686 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.687 [main] DefaultClientConnection:259-Receiving response: HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:26.687 [main] headers:262-<< HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:26.687 [main] headers:265-<< Content-Type: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:26.687 [main] headers:265-<< Transfer-Encoding: chunked
+[DEBUG] 2021-02-27 09:02:26.688 [main] headers:265-<< Date: Sat, 27 Feb 2021 07:02:26 GMT
+[DEBUG] 2021-02-27 09:02:26.688 [main] DefaultHttpClient:509-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:26.689 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545-Parsing response as: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:26.689 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548-Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2021-02-27 09:02:26.779 [main] wire:73- << "578[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.780 [main] wire:87- << "[{"id":6670,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6674,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6675,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6676,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6680,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6681,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6682,"firstName":"eqqqq","lastName":"wwwwe","age":15,"gender":"f"},{"id":6684,"firstName":"Sergey","lastName":"Neforov","age":24,"gender":"f"},{"id":6685,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6686,"firstName":"wqw","lastName":"ewew","age":43,"gender":"f"},{"id":6687,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6688,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6689,"firstName":"wwww","lastName":"qqqq","age":33,"gender":"f"},{"id":6690,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6691,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6692,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6693,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6694,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6695,"firstName":" KAsner","lastName":" Petter","age":36,"gender":"m"}]"
+[DEBUG] 2021-02-27 09:02:26.782 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.783 [main] wire:73- << "0[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.785 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:26.786 [main] BasicClientConnectionManager:200-Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@61ae0d43
+[DEBUG] 2021-02-27 09:02:26.786 [main] BasicClientConnectionManager:225-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:32.622 [main] BasicClientConnectionManager:161-Get connection for route {}->http://localhost:8081
+[DEBUG] 2021-02-27 09:02:32.625 [main] DefaultClientConnectionOperator:177-Connecting to localhost:8081
+[DEBUG] 2021-02-27 09:02:32.628 [main] RequestAddCookies:123-CookieSpec selected: ignoreCookies
+[DEBUG] 2021-02-27 09:02:32.629 [main] RequestAuthCache:77-Auth cache not set in the context
+[DEBUG] 2021-02-27 09:02:32.633 [main] RequestTargetAuthentication:80-Target auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:32.634 [main] RequestProxyAuthentication:89-Proxy auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:32.634 [main] DefaultHttpClient:682-Attempt 1 to execute request
+[DEBUG] 2021-02-27 09:02:32.635 [main] DefaultClientConnection:274-Sending request: POST /rest/json/subscribers HTTP/1.1
+[DEBUG] 2021-02-27 09:02:32.635 [main] wire:73- >> "POST /rest/json/subscribers HTTP/1.1[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.635 [main] wire:73- >> "Accept: */*[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.635 [main] wire:73- >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.636 [main] wire:73- >> "Content-Length: 81[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.636 [main] wire:73- >> "Host: localhost:8081[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.636 [main] wire:73- >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.636 [main] wire:73- >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.637 [main] wire:73- >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.637 [main] wire:73- >> "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:32.637 [main] headers:278->> POST /rest/json/subscribers HTTP/1.1
+[DEBUG] 2021-02-27 09:02:32.637 [main] headers:281->> Accept: */*
+[DEBUG] 2021-02-27 09:02:32.637 [main] headers:281->> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2021-02-27 09:02:32.638 [main] headers:281->> Content-Length: 81
+[DEBUG] 2021-02-27 09:02:32.638 [main] headers:281->> Host: localhost:8081
+[DEBUG] 2021-02-27 09:02:32.638 [main] headers:281->> Connection: Keep-Alive
+[DEBUG] 2021-02-27 09:02:32.638 [main] headers:281->> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+[DEBUG] 2021-02-27 09:02:32.638 [main] headers:281->> Accept-Encoding: gzip,deflate
+[DEBUG] 2021-02-27 09:02:32.639 [main] wire:87- >> "{"firstName":"[0xd0][0x9c][0xd0][0xb0][0xd1][0x80][0xd1][0x84][0xd0][0xb0]","lastName":"[0xd0][0x95][0xd1][0x80][0xd1][0x88][0xd0][0xbe][0xd0][0xb2][0xd0][0xb0]","gender":"f","id":0,"age":42}"
+[DEBUG] 2021-02-27 09:02:36.778 [main] wire:73- << "HTTP/1.1 201 [\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.779 [main] wire:73- << "Location: http://localhost:8081/rest/json/subscribers/6696[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.779 [main] wire:73- << "Content-Length: 0[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.779 [main] wire:73- << "Date: Sat, 27 Feb 2021 07:02:36 GMT[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.779 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.780 [main] DefaultClientConnection:259-Receiving response: HTTP/1.1 201 
+[DEBUG] 2021-02-27 09:02:36.780 [main] headers:262-<< HTTP/1.1 201 
+[DEBUG] 2021-02-27 09:02:36.780 [main] headers:265-<< Location: http://localhost:8081/rest/json/subscribers/6696
+[DEBUG] 2021-02-27 09:02:36.780 [main] headers:265-<< Content-Length: 0
+[DEBUG] 2021-02-27 09:02:36.781 [main] headers:265-<< Date: Sat, 27 Feb 2021 07:02:36 GMT
+[DEBUG] 2021-02-27 09:02:36.781 [main] DefaultHttpClient:509-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:36.806 [main] BasicClientConnectionManager:161-Get connection for route {}->http://localhost:8081
+[DEBUG] 2021-02-27 09:02:36.806 [main] DefaultClientConnectionOperator:177-Connecting to localhost:8081
+[DEBUG] 2021-02-27 09:02:36.807 [main] RequestAddCookies:123-CookieSpec selected: ignoreCookies
+[DEBUG] 2021-02-27 09:02:36.808 [main] RequestAuthCache:77-Auth cache not set in the context
+[DEBUG] 2021-02-27 09:02:36.808 [main] RequestTargetAuthentication:80-Target auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:36.808 [main] RequestProxyAuthentication:89-Proxy auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:36.808 [main] DefaultHttpClient:682-Attempt 1 to execute request
+[DEBUG] 2021-02-27 09:02:36.808 [main] DefaultClientConnection:274-Sending request: GET /rest/json/subscribers HTTP/1.1
+[DEBUG] 2021-02-27 09:02:36.809 [main] wire:73- >> "GET /rest/json/subscribers HTTP/1.1[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.809 [main] wire:73- >> "Accept: */*[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.809 [main] wire:73- >> "Host: localhost:8081[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.809 [main] wire:73- >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.810 [main] wire:73- >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.810 [main] wire:73- >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.810 [main] wire:73- >> "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.810 [main] headers:278->> GET /rest/json/subscribers HTTP/1.1
+[DEBUG] 2021-02-27 09:02:36.811 [main] headers:281->> Accept: */*
+[DEBUG] 2021-02-27 09:02:36.811 [main] headers:281->> Host: localhost:8081
+[DEBUG] 2021-02-27 09:02:36.811 [main] headers:281->> Connection: Keep-Alive
+[DEBUG] 2021-02-27 09:02:36.811 [main] headers:281->> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+[DEBUG] 2021-02-27 09:02:36.811 [main] headers:281->> Accept-Encoding: gzip,deflate
+[DEBUG] 2021-02-27 09:02:36.825 [main] wire:73- << "HTTP/1.1 200 [\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.826 [main] wire:73- << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.826 [main] wire:73- << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.826 [main] wire:73- << "Date: Sat, 27 Feb 2021 07:02:36 GMT[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.826 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.826 [main] DefaultClientConnection:259-Receiving response: HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:36.827 [main] headers:262-<< HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:36.827 [main] headers:265-<< Content-Type: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:36.827 [main] headers:265-<< Transfer-Encoding: chunked
+[DEBUG] 2021-02-27 09:02:36.827 [main] headers:265-<< Date: Sat, 27 Feb 2021 07:02:36 GMT
+[DEBUG] 2021-02-27 09:02:36.827 [main] DefaultHttpClient:509-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:36.828 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545-Parsing response as: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:36.828 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548-Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2021-02-27 09:02:36.830 [main] wire:73- << "5cd[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.830 [main] wire:87- << "[{"id":6670,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6674,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6675,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6676,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6680,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6681,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6682,"firstName":"eqqqq","lastName":"wwwwe","age":15,"gender":"f"},{"id":6684,"firstName":"Sergey","lastName":"Neforov","age":24,"gender":"f"},{"id":6685,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6686,"firstName":"wqw","lastName":"ewew","age":43,"gender":"f"},{"id":6687,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6688,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6689,"firstName":"wwww","lastName":"qqqq","age":33,"gender":"f"},{"id":6690,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6691,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6692,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6693,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6694,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6695,"firstName":" KAsner","lastName":" Petter","age":36,"gender":"m"},{"id":6696,"firstName":"[0xd0][0x9c][0xd0][0xb0][0xd1][0x80][0xd1][0x84][0xd0][0xb0]","lastName":"[0xd0][0x95][0xd1][0x80][0xd1][0x88][0xd0][0xbe][0xd0][0xb2][0xd0][0xb0]","age":42,"gender":"f"}]"
+[DEBUG] 2021-02-27 09:02:36.831 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.832 [main] wire:73- << "0[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.832 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:36.833 [main] BasicClientConnectionManager:200-Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@d6b532f
+[DEBUG] 2021-02-27 09:02:36.833 [main] BasicClientConnectionManager:225-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:39.205 [Finalizer] DefaultClientConnection:180-Connection 0.0.0.0:63442<->127.0.0.1:8081 closed
+[DEBUG] 2021-02-27 09:02:41.384 [Finalizer] DefaultClientConnection:180-Connection 0.0.0.0:63444<->127.0.0.1:8081 closed
+[DEBUG] 2021-02-27 09:02:41.580 [main] BasicClientConnectionManager:161-Get connection for route {}->http://localhost:8081
+[DEBUG] 2021-02-27 09:02:41.581 [main] DefaultClientConnectionOperator:177-Connecting to localhost:8081
+[DEBUG] 2021-02-27 09:02:41.583 [main] RequestAddCookies:123-CookieSpec selected: ignoreCookies
+[DEBUG] 2021-02-27 09:02:41.583 [main] RequestAuthCache:77-Auth cache not set in the context
+[DEBUG] 2021-02-27 09:02:41.583 [main] RequestTargetAuthentication:80-Target auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:41.583 [main] RequestProxyAuthentication:89-Proxy auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:41.584 [main] DefaultHttpClient:682-Attempt 1 to execute request
+[DEBUG] 2021-02-27 09:02:41.584 [main] DefaultClientConnection:274-Sending request: DELETE /rest/json/subscribers/6681 HTTP/1.1
+[DEBUG] 2021-02-27 09:02:41.584 [main] wire:73- >> "DELETE /rest/json/subscribers/6681 HTTP/1.1[\r][\n]"
+[DEBUG] 2021-02-27 09:02:41.585 [main] wire:73- >> "Accept: */*[\r][\n]"
+[DEBUG] 2021-02-27 09:02:41.585 [main] wire:73- >> "Host: localhost:8081[\r][\n]"
+[DEBUG] 2021-02-27 09:02:41.585 [main] wire:73- >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2021-02-27 09:02:41.585 [main] wire:73- >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+[DEBUG] 2021-02-27 09:02:41.585 [main] wire:73- >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2021-02-27 09:02:41.586 [main] wire:73- >> "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:41.587 [main] headers:278->> DELETE /rest/json/subscribers/6681 HTTP/1.1
+[DEBUG] 2021-02-27 09:02:41.588 [main] headers:281->> Accept: */*
+[DEBUG] 2021-02-27 09:02:41.588 [main] headers:281->> Host: localhost:8081
+[DEBUG] 2021-02-27 09:02:41.588 [main] headers:281->> Connection: Keep-Alive
+[DEBUG] 2021-02-27 09:02:41.588 [main] headers:281->> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+[DEBUG] 2021-02-27 09:02:41.588 [main] headers:281->> Accept-Encoding: gzip,deflate
+[DEBUG] 2021-02-27 09:02:42.224 [main] wire:73- << "HTTP/1.1 200 [\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.224 [main] wire:73- << "Content-Length: 0[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.224 [main] wire:73- << "Date: Sat, 27 Feb 2021 07:02:42 GMT[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.225 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.225 [main] DefaultClientConnection:259-Receiving response: HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:42.225 [main] headers:262-<< HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:42.225 [main] headers:265-<< Content-Length: 0
+[DEBUG] 2021-02-27 09:02:42.225 [main] headers:265-<< Date: Sat, 27 Feb 2021 07:02:42 GMT
+[DEBUG] 2021-02-27 09:02:42.226 [main] DefaultHttpClient:509-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:42.442 [main] BasicClientConnectionManager:161-Get connection for route {}->http://localhost:8081
+[DEBUG] 2021-02-27 09:02:42.442 [main] DefaultClientConnectionOperator:177-Connecting to localhost:8081
+[DEBUG] 2021-02-27 09:02:42.444 [main] RequestAddCookies:123-CookieSpec selected: ignoreCookies
+[DEBUG] 2021-02-27 09:02:42.444 [main] RequestAuthCache:77-Auth cache not set in the context
+[DEBUG] 2021-02-27 09:02:42.444 [main] RequestTargetAuthentication:80-Target auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:42.445 [main] RequestProxyAuthentication:89-Proxy auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:42.445 [main] DefaultHttpClient:682-Attempt 1 to execute request
+[DEBUG] 2021-02-27 09:02:42.445 [main] DefaultClientConnection:274-Sending request: GET /rest/json/subscribers/6686 HTTP/1.1
+[DEBUG] 2021-02-27 09:02:42.445 [main] wire:73- >> "GET /rest/json/subscribers/6686 HTTP/1.1[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.445 [main] wire:73- >> "Accept: */*[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.446 [main] wire:73- >> "Host: localhost:8081[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.446 [main] wire:73- >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.446 [main] wire:73- >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.446 [main] wire:73- >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.447 [main] wire:73- >> "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.447 [main] headers:278->> GET /rest/json/subscribers/6686 HTTP/1.1
+[DEBUG] 2021-02-27 09:02:42.448 [main] headers:281->> Accept: */*
+[DEBUG] 2021-02-27 09:02:42.448 [main] headers:281->> Host: localhost:8081
+[DEBUG] 2021-02-27 09:02:42.448 [main] headers:281->> Connection: Keep-Alive
+[DEBUG] 2021-02-27 09:02:42.449 [main] headers:281->> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+[DEBUG] 2021-02-27 09:02:42.450 [main] headers:281->> Accept-Encoding: gzip,deflate
+[DEBUG] 2021-02-27 09:02:42.481 [main] wire:73- << "HTTP/1.1 200 [\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.481 [main] wire:73- << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.481 [main] wire:73- << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.482 [main] wire:73- << "Date: Sat, 27 Feb 2021 07:02:42 GMT[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.482 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.482 [main] DefaultClientConnection:259-Receiving response: HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:42.483 [main] headers:262-<< HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:42.483 [main] headers:265-<< Content-Type: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:42.483 [main] headers:265-<< Transfer-Encoding: chunked
+[DEBUG] 2021-02-27 09:02:42.483 [main] headers:265-<< Date: Sat, 27 Feb 2021 07:02:42 GMT
+[DEBUG] 2021-02-27 09:02:42.483 [main] DefaultHttpClient:509-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:42.485 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545-Parsing response as: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:42.485 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548-Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2021-02-27 09:02:42.487 [main] wire:73- << "45[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.487 [main] wire:87- << "{"id":6686,"firstName":"wqw","lastName":"ewew","age":43,"gender":"f"}"
+[DEBUG] 2021-02-27 09:02:42.488 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.488 [main] wire:73- << "0[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.488 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.488 [main] BasicClientConnectionManager:200-Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@40b31a16
+[DEBUG] 2021-02-27 09:02:42.489 [main] BasicClientConnectionManager:225-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:42.560 [main] BasicClientConnectionManager:161-Get connection for route {}->http://localhost:8081
+[DEBUG] 2021-02-27 09:02:42.560 [main] DefaultClientConnectionOperator:177-Connecting to localhost:8081
+[DEBUG] 2021-02-27 09:02:42.562 [main] RequestAddCookies:123-CookieSpec selected: ignoreCookies
+[DEBUG] 2021-02-27 09:02:42.563 [main] RequestAuthCache:77-Auth cache not set in the context
+[DEBUG] 2021-02-27 09:02:42.563 [main] RequestTargetAuthentication:80-Target auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:42.563 [main] RequestProxyAuthentication:89-Proxy auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:42.566 [main] DefaultHttpClient:682-Attempt 1 to execute request
+[DEBUG] 2021-02-27 09:02:42.566 [main] DefaultClientConnection:274-Sending request: GET /rest/json/subscribers HTTP/1.1
+[DEBUG] 2021-02-27 09:02:42.566 [main] wire:73- >> "GET /rest/json/subscribers HTTP/1.1[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.567 [main] wire:73- >> "Accept: */*[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.567 [main] wire:73- >> "Host: localhost:8081[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.568 [main] wire:73- >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.569 [main] wire:73- >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.570 [main] wire:73- >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.570 [main] wire:73- >> "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.571 [main] headers:278->> GET /rest/json/subscribers HTTP/1.1
+[DEBUG] 2021-02-27 09:02:42.571 [main] headers:281->> Accept: */*
+[DEBUG] 2021-02-27 09:02:42.572 [main] headers:281->> Host: localhost:8081
+[DEBUG] 2021-02-27 09:02:42.572 [main] headers:281->> Connection: Keep-Alive
+[DEBUG] 2021-02-27 09:02:42.572 [main] headers:281->> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+[DEBUG] 2021-02-27 09:02:42.572 [main] headers:281->> Accept-Encoding: gzip,deflate
+[DEBUG] 2021-02-27 09:02:42.644 [main] wire:73- << "HTTP/1.1 200 [\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.645 [main] wire:73- << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.645 [main] wire:73- << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.646 [main] wire:73- << "Date: Sat, 27 Feb 2021 07:02:42 GMT[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.647 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.650 [main] DefaultClientConnection:259-Receiving response: HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:42.650 [main] headers:262-<< HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:42.650 [main] headers:265-<< Content-Type: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:42.650 [main] headers:265-<< Transfer-Encoding: chunked
+[DEBUG] 2021-02-27 09:02:42.650 [main] headers:265-<< Date: Sat, 27 Feb 2021 07:02:42 GMT
+[DEBUG] 2021-02-27 09:02:42.651 [main] DefaultHttpClient:509-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:42.651 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545-Parsing response as: application/json;charset=UTF-8
+[DEBUG] 2021-02-27 09:02:42.652 [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548-Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2021-02-27 09:02:42.653 [main] wire:73- << "582[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.654 [main] wire:87- << "[{"id":6670,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6674,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6675,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6676,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6680,"firstName":"Andrey","lastName":"Kasner","age":35,"gender":"m"},{"id":6682,"firstName":"eqqqq","lastName":"wwwwe","age":15,"gender":"f"},{"id":6684,"firstName":"Sergey","lastName":"Neforov","age":24,"gender":"f"},{"id":6685,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6686,"firstName":"wqw","lastName":"ewew","age":43,"gender":"f"},{"id":6687,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6688,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6689,"firstName":"wwww","lastName":"qqqq","age":33,"gender":"f"},{"id":6690,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6691,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6692,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6693,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6694,"firstName":"Pavel","lastName":"Laryn","age":40,"gender":"m"},{"id":6695,"firstName":" KAsner","lastName":" Petter","age":36,"gender":"m"},{"id":6696,"firstName":"[0xd0][0x9c][0xd0][0xb0][0xd1][0x80][0xd1][0x84][0xd0][0xb0]","lastName":"[0xd0][0x95][0xd1][0x80][0xd1][0x88][0xd0][0xbe][0xd0][0xb2][0xd0][0xb0]","age":42,"gender":"f"}]"
+[DEBUG] 2021-02-27 09:02:42.654 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.656 [main] wire:73- << "0[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.656 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.657 [main] BasicClientConnectionManager:200-Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@70d5d96b
+[DEBUG] 2021-02-27 09:02:42.657 [main] BasicClientConnectionManager:225-Connection can be kept alive indefinitely
+[DEBUG] 2021-02-27 09:02:42.963 [main] BasicClientConnectionManager:161-Get connection for route {}->http://localhost:8081
+[DEBUG] 2021-02-27 09:02:42.966 [main] DefaultClientConnectionOperator:177-Connecting to localhost:8081
+[DEBUG] 2021-02-27 09:02:42.968 [main] RequestAddCookies:123-CookieSpec selected: ignoreCookies
+[DEBUG] 2021-02-27 09:02:42.968 [main] RequestAuthCache:77-Auth cache not set in the context
+[DEBUG] 2021-02-27 09:02:42.969 [main] RequestTargetAuthentication:80-Target auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:42.969 [main] RequestProxyAuthentication:89-Proxy auth state: UNCHALLENGED
+[DEBUG] 2021-02-27 09:02:42.969 [main] DefaultHttpClient:682-Attempt 1 to execute request
+[DEBUG] 2021-02-27 09:02:42.970 [main] DefaultClientConnection:274-Sending request: PUT /rest/json/subscribers/6683 HTTP/1.1
+[DEBUG] 2021-02-27 09:02:42.970 [main] wire:73- >> "PUT /rest/json/subscribers/6683 HTTP/1.1[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.970 [main] wire:73- >> "Accept: */*[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.970 [main] wire:73- >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.971 [main] wire:73- >> "Content-Length: 80[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.972 [main] wire:73- >> "Host: localhost:8081[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.972 [main] wire:73- >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.973 [main] wire:73- >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.973 [main] wire:73- >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.973 [main] wire:73- >> "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:42.973 [main] headers:278->> PUT /rest/json/subscribers/6683 HTTP/1.1
+[DEBUG] 2021-02-27 09:02:42.974 [main] headers:281->> Accept: */*
+[DEBUG] 2021-02-27 09:02:42.974 [main] headers:281->> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2021-02-27 09:02:42.974 [main] headers:281->> Content-Length: 80
+[DEBUG] 2021-02-27 09:02:42.974 [main] headers:281->> Host: localhost:8081
+[DEBUG] 2021-02-27 09:02:42.974 [main] headers:281->> Connection: Keep-Alive
+[DEBUG] 2021-02-27 09:02:42.974 [main] headers:281->> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+[DEBUG] 2021-02-27 09:02:42.975 [main] headers:281->> Accept-Encoding: gzip,deflate
+[DEBUG] 2021-02-27 09:02:42.975 [main] wire:87- >> "{"firstName":"Ivan_upd","lastName":"Ivanov_upd","gender":"m","id":6681,"age":68}"
+[DEBUG] 2021-02-27 09:02:43.006 [main] wire:73- << "HTTP/1.1 200 [\r][\n]"
+[DEBUG] 2021-02-27 09:02:43.006 [main] wire:73- << "Content-Length: 0[\r][\n]"
+[DEBUG] 2021-02-27 09:02:43.006 [main] wire:73- << "Date: Sat, 27 Feb 2021 07:02:42 GMT[\r][\n]"
+[DEBUG] 2021-02-27 09:02:43.006 [main] wire:73- << "[\r][\n]"
+[DEBUG] 2021-02-27 09:02:43.007 [main] DefaultClientConnection:259-Receiving response: HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:43.007 [main] headers:262-<< HTTP/1.1 200 
+[DEBUG] 2021-02-27 09:02:43.007 [main] headers:265-<< Content-Length: 0
+[DEBUG] 2021-02-27 09:02:43.007 [main] headers:265-<< Date: Sat, 27 Feb 2021 07:02:42 GMT
+[DEBUG] 2021-02-27 09:02:43.008 [main] DefaultHttpClient:509-Connection can be kept alive indefinitely
