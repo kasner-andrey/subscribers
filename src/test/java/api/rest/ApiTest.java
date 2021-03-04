@@ -13,6 +13,7 @@ import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
@@ -72,7 +73,7 @@ public class ApiTest {
 
         List<Subscriber> before = getAllSubscribers();
 
-        addSubscriber(subscriber);
+        System.out.println("*************************" + addSubscriber(subscriber));
 
         List<Subscriber> after = getAllSubscribers();
         Assert.assertEquals(after.size(), before.size() + 1);
@@ -104,14 +105,22 @@ public class ApiTest {
                 .statusCode(200);
     }
 
-    @Test
-    public void testDeleteSubscriber() {
+    @Test(dataProvider = "IdForDelete")
+    public void testDeleteSubscriber(int id) {
         given()
                 .log().all()
-                .delete("/subscribers/6681")
+                .delete("/subscribers/" + id)
                 .then()
                 .assertThat()
                 .statusCode(200);
+    }
+
+    @DataProvider(name = "IdForDelete")
+    private Object[][] IdForDelete() {
+
+
+
+        return new Object[1][1];
     }
 
     private List<Subscriber> getAllSubscribers() {
@@ -175,10 +184,14 @@ public class ApiTest {
 
     @DataProvider(name="subscriberProvider")
     public Object[][] subscriberProvider() {
-        Subscriber subscriber = new SubscriberRandom().getSubscriber();
-        return new Object[][] {
-                {subscriber}
-        };
+        Object[][] subscribers = new Object[10][1];
+        Subscriber subscriber;
+        for (int i = 0; i < 10; i++) {
+            subscriber = new SubscriberRandom().getSubscriber();
+            subscriber.setId((int) (1 + Math.random() * 10000));
+            subscribers[i][0] = subscriber;
+        }
+        return subscribers;
     }
 
 

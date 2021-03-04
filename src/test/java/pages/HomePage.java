@@ -8,9 +8,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class HomePage extends BasePage {
-    private Logger LOG = LoggerFactory.getLogger(HomePage.class);
+    private final Logger LOG = LoggerFactory.getLogger(HomePage.class);
     private String baseUrl;
-    @FindBy(xpath = "/div/a")
+
+    @FindBy(css = "body > div > div:nth-child(2) > div > a")
     private WebElement subscriberLink;
 
     public HomePage(WebDriver driver, String baseUrl) {

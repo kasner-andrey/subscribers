@@ -1,0 +1,22 @@
+[DEBUG] 2021-03-04 13:40:10.974 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 13:40:11.124 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 13:45:26.128 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 13:45:26.157 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 13:53:01.252 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 13:53:01.285 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 13:56:41.130 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 13:56:41.184 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 15:44:09.928 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 15:44:10.050 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 15:51:03.601 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 15:51:03.679 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 16:14:50.463 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 16:14:50.568 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 16:45:32.370 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 16:45:32.401 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 16:54:10.550 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 16:54:10.587 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 17:03:04.324 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 17:03:04.359 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
+[DEBUG] 2021-03-04 17:05:29.635 [main] BROWSER:37-Navigated to http://localhost:8081/
+[DEBUG] 2021-03-04 17:05:29.670 [main] BROWSER:38-http://localhost:8081/js/lib/bootstrap-4.0.0/bootstrap.min.js 5:2081 Uncaught TypeError: Cannot read property 'fn' of undefined
