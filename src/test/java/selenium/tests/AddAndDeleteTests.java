@@ -41,6 +41,34 @@ public class AddAndDeleteTests extends BaseTest {
         Assert.assertEquals(after, before);
     }
 
+//    @Test(dataProvider = "forDelete")
+//    public void deleteSubscriber() {
+//        driver.get(baseUrl);
+//        List<Subscriber> before = new HomePage(driver, baseUrl)
+//                .subscriberLinkClick()
+//                .getAllSubscribers();
+//
+//        List
+//    }
+
+//    @DataProvider(name = "forDelete")
+//    private Object[][] forDelete() {
+//        driver.get(baseUrl);
+//        List<Subscriber> before = new HomePage(driver, baseUrl)
+//                .subscriberLinkClick()
+//                .getAllSubscribers();
+//        List<Integer> idForDelete = new ArrayList<>();
+//        for (int i = 0; i < 1; i++) {
+//            idForDelete.add();
+//
+//
+//            }
+//        }
+//
+//        return Object[][]{};
+//    }
+
+
 
     @DataProvider(name = "subscribers")
     private Object[][] subscribers() {
